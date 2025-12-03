@@ -11,7 +11,7 @@ export default defineConfig([
   },
   js.configs.recommended,
   {
-    files: ["**/*.{js,mjs,cjs,ts,mts,cts}"],
+    files: ["**/*.{js,mjs,cjs,ts,mts,cts,astro}"],
     languageOptions: { globals: globals.browser },
   },
   ...tseslint.configs.recommended,
