@@ -8,6 +8,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "lint": "eslint .",
+    "tsc-check": "tsc --noEmit",
     "prepare": "husky"
   },
   "dependencies": {
